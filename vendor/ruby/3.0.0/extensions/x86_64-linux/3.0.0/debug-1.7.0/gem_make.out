@@ -1,0 +1,16 @@
+current directory: /home/moringa/Desktop/Phase4Project/roomie/vendor/ruby/3.0.0/gems/debug-1.7.0/ext/debug
+/home/moringa/.rvm/rubies/ruby-3.0.0/bin/ruby -I /home/moringa/.rvm/rubies/ruby-3.0.0/lib/ruby/3.0.0 -r ./siteconf20221206-22985-6lqbi6.rb extconf.rb
+creating Makefile
+
+current directory: /home/moringa/Desktop/Phase4Project/roomie/vendor/ruby/3.0.0/gems/debug-1.7.0/ext/debug
+make "DESTDIR=" clean
+
+current directory: /home/moringa/Desktop/Phase4Project/roomie/vendor/ruby/3.0.0/gems/debug-1.7.0/ext/debug
+make "DESTDIR="
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/moringa/Desktop/Phase4Project/roomie/vendor/ruby/3.0.0/gems/debug-1.7.0/ext/debug
+make "DESTDIR=" install
+/usr/bin/install -m 0755 debug.so ./.gem.20221206-22985-e2ihw9/debug
