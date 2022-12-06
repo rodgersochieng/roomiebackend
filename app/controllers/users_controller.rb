@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
     rescue_from ActiveRecord::RecordInvalid, with: :record_invalid
-rescue_from ActiveRecord::RecordNotFound, with: :record_not_found
+    rescue_from ActiveRecord::RecordNotFound, with: :record_not_found
 
 
     def create
@@ -18,7 +18,7 @@ rescue_from ActiveRecord::RecordNotFound, with: :record_not_found
 
     private
     def user_params
-        params.permit(:username, :password, :password_confirmation,:image_url, :bio)
+        params.permit(:username, :password, :password_confirmation)
     end
 
     def record_invalid(invalid)
