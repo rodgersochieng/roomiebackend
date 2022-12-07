@@ -4,7 +4,7 @@ class AccountsController < ApplicationController
       end
     
       def create
-        account = @current_user.accounts.create!(account_params)
+        account = @current_user.account.create!(account_params)
         render json: account, status: :created 
       end
     
