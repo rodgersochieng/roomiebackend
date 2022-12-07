@@ -4,5 +4,5 @@ class Account < ApplicationRecord
     validates :image_url, presence: true
     validates :institution, presence: true
     validates :gender, presence: true
-    validates :bio, presence: true ,length: {minimum: 50}
+    validates :bio, presence: true ,length: {minimum: 10}
 end
