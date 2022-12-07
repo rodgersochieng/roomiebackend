@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from "react";
-// import "bootstrap/dist/css/bootstrap.min.css";
 import Homepage from "./components/Homepage";
 import Login from "./pages/Login";
 import NavBar from "./components/NavBar";
 import Account from "./components/Account";
-// import AboutUs from "./components/AboutUs";
-// import ContactUs from "./components/ContactUs";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
