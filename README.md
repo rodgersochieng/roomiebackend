@@ -14,3 +14,8 @@
 <h1>Setup Requirements</h1>
 <li> Git (to clone the repository)</li>
 <li>Postman (to test the API)</li>
+
+<h1>Setup Installation</h1>
+<li>Clone the repository</li>
+<li>cd path_to_project (if you cloned the repository)</li>
+<li></li>
