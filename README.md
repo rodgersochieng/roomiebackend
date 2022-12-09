@@ -12,3 +12,5 @@
   "password":"123456"
 }
 <h1>Setup Requirements</h1>
+<li> Git (to clone the repository)</li>
+<li>Postman (to test the API)</li>
