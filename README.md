@@ -20,4 +20,6 @@
 <li>cd path_to_project (if you cloned the repository)</li>
 <li>bundle install</li>
 <h4>Open Postman to test the API endpoints or use the following link:</h4>
-<li>http://localhost:3000/<the_endpoint></li>
+<li>http://localhost:3000/the_endpoint</li>
+
+<h1>Endpoints</h1>
