@@ -8,7 +8,7 @@
 
 <h1>Admin/User Login Credentials key</h1>
 {
-  "username": "Roses",
-  <br>
-  "password": "12345"
+  "username":"Randon",
+  "password":"123456"
 }
+<h1>Setup Requirements</h1>
